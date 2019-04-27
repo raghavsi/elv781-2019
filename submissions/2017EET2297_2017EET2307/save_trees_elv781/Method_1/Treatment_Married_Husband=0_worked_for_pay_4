@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<agem1 &le; 15.5<br/>mse = 0.142<br/>samples = 212480<br/>value = 0.828>, fillcolor="#e58139d6"] ;
+1 [label=<mse = 0.0<br/>samples = 32786<br/>value = 0.0>, fillcolor="#e5813900"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<agem1 &le; 52.5<br/>mse = 0.021<br/>samples = 179694<br/>value = 0.979>, fillcolor="#e58139fd"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label=<agem1 &le; 40.5<br/>mse = 0.02<br/>samples = 179025<br/>value = 0.98>, fillcolor="#e58139fd"] ;
+2 -> 3 ;
+4 [label=<agefstm &le; 20.5<br/>mse = 0.019<br/>samples = 170877<br/>value = 0.981>, fillcolor="#e58139fe"] ;
+3 -> 4 ;
+5 [label=<mse = 0.023<br/>samples = 86181<br/>value = 0.976>, fillcolor="#e58139fd"] ;
+4 -> 5 ;
+6 [label=<mse = 0.014<br/>samples = 84696<br/>value = 0.986>, fillcolor="#e58139ff"] ;
+4 -> 6 ;
+7 [label=<agefstm &le; 22.5<br/>mse = 0.045<br/>samples = 8148<br/>value = 0.953>, fillcolor="#e58139f6"] ;
+3 -> 7 ;
+8 [label=<mse = 0.052<br/>samples = 5447<br/>value = 0.945>, fillcolor="#e58139f5"] ;
+7 -> 8 ;
+9 [label=<mse = 0.031<br/>samples = 2701<br/>value = 0.968>, fillcolor="#e58139fa"] ;
+7 -> 9 ;
+10 [label=<agem1 &le; 64.5<br/>mse = 0.165<br/>samples = 669<br/>value = 0.792>, fillcolor="#e58139cd"] ;
+2 -> 10 ;
+11 [label=<agem1 &le; 59.5<br/>mse = 0.144<br/>samples = 600<br/>value = 0.825>, fillcolor="#e58139d5"] ;
+10 -> 11 ;
+12 [label=<mse = 0.129<br/>samples = 498<br/>value = 0.847>, fillcolor="#e58139db"] ;
+11 -> 12 ;
+13 [label=<mse = 0.203<br/>samples = 102<br/>value = 0.716>, fillcolor="#e58139b9"] ;
+11 -> 13 ;
+14 [label=<agefstm &le; 17.5<br/>mse = 0.25<br/>samples = 69<br/>value = 0.507>, fillcolor="#e5813983"] ;
+10 -> 14 ;
+15 [label=<mse = 0.109<br/>samples = 8<br/>value = 0.875>, fillcolor="#e58139e2"] ;
+14 -> 15 ;
+16 [label=<mse = 0.248<br/>samples = 61<br/>value = 0.459>, fillcolor="#e5813977"] ;
+14 -> 16 ;
+}
